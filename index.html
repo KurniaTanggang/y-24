@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y-24</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="galery.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Yessi 24.yo 🥳🥳🥳🥳🥳</h1>
+        <h3>Sooo ini kilas balik 1 tahun ke belakang ⌛️</h3>
+        <div class="gallery galery-kiri v-none" id="galery-id">
+            <input type="checkbox" class="inp-galery" onclick="isChecked(this)">
+            <!-- <input type="checkbox" class="inp-galery" onclick="isChecked(this)" style="padding: 100px;"> -->
+            <img src="img/januari/1.jpg" alt="yessi" id="img-kiri-1">
+            <img src="img/januari/2.jpg" alt="yessi" id="img-kiri-2">
+            <img src="img/januari/3.jpg" alt="yessi" id="img-kiri-3">
+            <img src="img/januari/4.jpg" alt="yessi" id="img-kiri-4">
+            <img src="img/januari/5.jpg" alt="yessi" id="img-kiri-5">
+            <img src="img/januari/6.jpg" alt="yessi" id="img-kiri-6">
+            <img src="img/januari/7.jpg" alt="yessi" id="img-kiri-7">
+            <img src="img/januari/8.jpg" alt="yessi" id="img-kiri-8">
+
+        </div>
+
+        <div class="gallery galery-kanan v-none" id="galery-kanan-id">
+            <input type="checkbox" class="inp-galery" onclick="isCheckedKanan(this)">
+            <!-- <input type="checkbox" class="inp-galery" onclick="isChecked(this)" style="padding: 100px;"> -->
+            <img src="img/feb/1.jpg" alt="yessi" id="img-kanan-1">
+            <img src="img/feb/2.jpg" alt="yessi" id="img-kanan-2">
+            <img src="img/feb/3.jpg" alt="yessi" id="img-kanan-3">
+            <img src="img/feb/4.jpg" alt="yessi" id="img-kanan-4">
+            <img src="img/feb/5.jpg" alt="yessi" id="img-kanan-5">
+            <img src="img/feb/6.jpg" alt="yessi" id="img-kanan-6">
+            <img src="img/feb/7.jpg" alt="yessi" id="img-kanan-7">
+            <img src="img/feb/8.jpg" alt="yessi" id="img-kanan-8">
+
+        </div>
+        <div class="book">
+            <input class="inp-book" type="checkbox" name="page1" id="page1" onclick="page1(this)">
+            <!-- <input type="checkbox" class="inp-galery"> -->
+            <input class="inp-book" type="checkbox" name="page2" id="page2" onclick="page2(this)">
+            <input class="inp-book" type="checkbox" name="page3" id="page3" onclick="page3(this)">
+            <input class="inp-book" type="checkbox" name="page4" id="page4" onclick="page4(this)">
+            <input class="inp-book" type="checkbox" name="page5" id="page5" onclick="page5(this)">
+            <input class="inp-book" type="checkbox" name="page6" id="page6" onclick="page6(this)">
+            <input class="inp-book" type="checkbox" name="page7" id="page7" onclick="page7(this)">
+            <!-- <input class="inp-book" type="checkbox" name="page8" id="page8">
+            <input class="inp-book" type="checkbox" name="page9" id="page9">
+            <input class="inp-book" type="checkbox" name="page10" id="page10"> -->
+            <!-- <input class="inp-book" type="checkbox" name="page5" id="page5">
+            <input class="inp-book" type="checkbox" name="page5" id="page5"> -->
+
+            <div class="pages" id="pages">
+                <div class="page1">
+                    <label for="page1" id="label-page-1" class="flip"><div style="font-size:30px;margin-top: 15%;">Yessi 2024 <br><br>Sangat amat super rahasia <br>🔒</div></label>
+                </div>
+                <div class="page2">
+                    <label for="page2" id="label-page-2" class="flip">Februari</label>
+                </div>
+                <div class="page3">
+                    <label for="page3" id="label-page-3" class="flip">April</label>
+                </div>
+                <div class="page4">
+                    <label for="page4" id="label-page-4" class="flip">Juni</label>
+                </div>
+                <div class="page5">
+                    <label for="page5" id="label-page-5" class="flip">Agustus</label>
+                </div>
+                <div class="page6">
+                    <label for="page6" id="label-page-6" class="flip">Oktober</label>
+                </div>
+                <div class="page7">
+                    <label for="page7" id="label-page-7" class="flip">Desember</label>
+                </div>
+                <!--<div class="page8">
+                    <label for="page8" class="flip"></label>
+                </div>
+                <div class="page9">
+                    <label for="page9" class="flip"></label>
+                </div>
+                <div class="page10">
+                    <label for="page10" class="flip"></label>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
