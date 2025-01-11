@@ -30,7 +30,7 @@ function isChecked(element) {
         if (bulanKiri == 1) {
             alert('Januari, awal bulan yang penuh harapan, ngapain aja sih waktu januari? Yok kita liat!')
         } else if (bulanKiri == 2) {
-            alert('Maret, ini bulan ngapain ya, ohh iya banyak liburr karena ada imlek hahaha, tapi tetap saja kerja kerja kerja kayak yang di foto-foto ini!')
+            alert('Maret, ini bulan ngapain ya, ohh iya banyak liburr karena ada nyepi (revisi) hahaha, tapi tetap saja kerja kerja kerja kayak yang di foto-foto ini!')
         } else if (bulanKiri == 3) {
             alert('Mei, banyak "kejadian di sini ya" tapi tetap saja seteronggggggg!')
         } else if (bulanKiri == 4) {
